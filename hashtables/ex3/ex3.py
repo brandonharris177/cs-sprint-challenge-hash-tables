@@ -6,10 +6,6 @@ def intersection(arrays):
     """
     # Your code here
 
-    count = 0
-    for each_list in arrays:
-        count += 1
-
     intersections = {}
 
     for single_list in arrays:
@@ -27,7 +23,7 @@ def intersection(arrays):
         else: 
             flipped[value].append(key) 
 
-    result = flipped[count]
+    result = flipped[len(arrays)]
 
     return result
 
