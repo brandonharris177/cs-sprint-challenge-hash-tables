@@ -1,5 +1,3 @@
-import operator
-
 def intersection(arrays):
     """
     YOUR CODE HERE
